@@ -1,0 +1,25 @@
+{
+  "name": "@app/components",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "cross-env NODE_ENV=test npx --no-install -n \"-r @app/config/env\" jest"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.1.0",
+    "@apollo/react-common": "^3.1.4",
+    "@apollo/react-hooks": "^3.1.5",
+    "@app/graphql": "0.0.0",
+    "antd": "^4.2.0",
+    "apollo-client": "^2.6.8",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "tslib": "^2.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "jest": "^25.5.4",
+    "typescript": "^4.0.2"
+  }
+}
